@@ -1,0 +1,7 @@
+[project]
+name = "wifi-microscope-live"
+version = "0.1.0"
+description = "Live viewer launcher for a Wi-Fi microscope raw H.264 stream."
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = []
