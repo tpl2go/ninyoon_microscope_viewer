@@ -1,6 +1,8 @@
 # Wi-Fi Microscope Live Viewer
 
-This repository contains a small launcher for the Wi-Fi microscope video stream.
+![product image](product-img.jpg)
+
+This repository contains a small launcher for viewing the [Ninyoon Wi-Fi 4K microscope](https://ninyoon.com/pages/ninyoon-4k-wifi-microscope) video stream over wifi. The OEM designed this product to stream video feed to phones/tablets through Wifi and to computers through USB. But for computers with USB or driver issues, it would be great it could also view the video feed through wifi. Thus this repo.
 
 The microscope sends raw Annex B H.264 over TCP port `8080`. It also uses short
 UDP control/keepalive packets on ports `20000` and `20001`. `microscope_live.py`
